@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.container {
+  margin: 13px 0px;
+  padding: 0 10px;
+}
+header {
+  position: sticky;
+  top: 0;
+
+  background-color: white;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-right {
+  justify-content: right;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.section-1 {
+  background: #f2f2f2;
+  width: 100%;
+  padding: 0 65px;
+}
+
+.section2 {
+  background: #f2f2f2;
+  padding: 0 0px;
+  width: 100%;
+}
+header .left a,
+header .right a {
+  color: inherit; /* Ensures the link inherits the current color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Additional styles to prevent color change on hover, active, and visited states */
+header .left a:link,
+header .left a:visited,
+header .right a:link,
+header .right a:visited {
+  color: inherit; /* Ensures the link inherits the current color */
+}
+
+header .left a:hover,
+header .left a:active,
+header .right a:hover,
+header .right a:active {
+  color: inherit; /* Ensures the link inherits the current color */
+}
